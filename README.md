@@ -31,3 +31,13 @@ Afhankelijk van de doorgegeven gewichtstoestand (zoals opgeslagen in de constant
 - overgewicht: oranje
 - obesitas: rood
 Bij een onbekende gewichtstoestand is de kleur wit.
+## IsFormulierGoedIngevuld
+Deze methode gaat na of alles op het formulier goed ingevuld is.
+Dit is het geval als er in de 2 comboboxen wel degelijk een waarde is aangeduid.
+Via de variabelen rijksregisterOK, familieNaamOK, voornaamOK wordt nagegaan of de input in de textboxen correct is.
+## btnVatSamen
+De code in de click-event handler van deze knop wordt enkel uitgevoerd als het formulier correct is ingevuld (zie IsFormulierGoedIngevuld).
+Is dit het geval niet, dan verschijnt in lblSamenvatting de tekst 'Kijk je input na en probeer het opnieuw'.
+
+
+
